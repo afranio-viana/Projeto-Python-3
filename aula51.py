@@ -4,7 +4,7 @@ from dados import produtos,pessoas,lista
 todos os valores de uma lista por 2!!!!"""
 nova_lista=[x*2 for x in lista]
 
-"""Mesma coisa, mas com map!!!"""
+"""Mesma coisa, mas com map, que serve para fazer o mapeamento de dados!!!"""
 nova_lista2=map(lambda x:x*2, lista)
 
 print(f'{lista}')
